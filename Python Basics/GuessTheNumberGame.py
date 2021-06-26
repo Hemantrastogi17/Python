@@ -10,6 +10,6 @@ while(noOfGuesses<10 or numberGuessed == fixedNumber):
     elif(numberGuessed == fixedNumber):
         print("You guessed the correct number")
         print("Number of chances taken:",noOfGuesses)
-        break;
+        break
     else:
         print("The number you guessed is larger")
